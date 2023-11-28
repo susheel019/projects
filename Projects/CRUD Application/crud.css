@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #1F4172;
+    display: flex;
+    justify-content: center;
+    background-color: #132043;
+   
+    
+}
+#card{
+    height: 300px;
+    width:40%;
+    margin-top: 80px;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    color: #ffff;
+   
+}
+#form1{
+    padding-left: 100px;
+    padding-top: 20px;
+   
+}
+#form2{
+         padding-left: 100px;
+         padding-top: 20px;
+        
+}
+#form3{
+         padding-left: 100px;
+         padding-top: 20px;
+         
+}
+input{
+     height: 30px;
+     width: 80%;
+     border-radius: 5px;
+     padding-left:5px;
+}
+label{
+    color: #ffff;
+}
+button{
+    height: 30px;
+    width: 60px;
+    border: #1F4172;
+    border-radius: 5px;
+    margin-left: 102px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: #fff;
+    background: green;
+}
+table{
+    width: 700px;
+    /* background-color: #427D9D; */
+    margin-top: 30px;
+    margin-left: -50px;
+    text-align: left;
+}
+#data {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 700px;
+    color: #fff;
+    border-radius: 10px;
+  }
+  
+  #data td, #data th {
+    border: 2px solid #213555;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  
+  #data tr:nth-child(even){background-color: #213555;}
+  #data tr:nth-child(odd){background-color: #768296;}
+  
+  
+  
+  #data th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #2B2A4C;
+    color: #fff;
+  }
+  #txtEdit{
+    height: 30px;
+    margin-left: -5px ;
+    margin-right: 10px;
+    display: inline-block;
+  }
+  #txtDelete{
+    height: 30px;
+    margin-left: -1px ;
+    margin-right: 10px; 
+    background-color: red;
+  } 

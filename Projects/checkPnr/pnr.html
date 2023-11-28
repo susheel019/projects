@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="input">
+        <div> <h3 id="h3">Check PNR Status</h3></div>
+        <label for="txtPnr">Enter Pnr</label><br>
+        <input type="text" id="txtPnr"><br>
+        <input onclick="btnPNR_click()" type="button" value="Check Pnr">
+    </div>
+    <div id="output">
+        <div id="header"> <h2>Passenger Current Status Enquiry</h2> </div>
+        <div id="date"></div>
+        <div id="pnrNumberdiv"><p>You Queried For : PNR Number: <p id="txtPnrNumber"></p> </p></div>
+        <table>
+            <tr>
+                <th>
+                    Train Number
+                </th>
+                <th>
+                    Train Name
+                </th>
+                <th>
+                    Boarding Date<br>(DD-MM-YYYY)
+                </th>
+                <th>
+                     From
+                </th>
+                <th>
+                     To
+                </th>
+                <th>
+                     Reversed  Upto
+                </th>
+                <th>
+                     Boarding Point
+                </th>
+                <th>
+                     class
+                </th>
+                
+            </tr>
+            <tr>
+                <td id="txtTrainNumber"></td>
+                <td id="txtTrainName"></td>
+                <td id="txtBoardingDate"></td>
+                <td id="txtFrom"></td>
+                <td id="txtTo"></td>
+                <td id="txtReservedUpto"></td>
+                <td id="txtBoardingPoint"></td>
+                <td id="txtClass"></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th>S. No.</th>
+                <th>Booking Status (Coach No , Berth No., Quota)</th>
+                <th>*Current Status (Coach No , Berth No.)</th>
+               <th> Coach Position</th>
+            </tr>
+            <tr>
+                <td id="txtSNo"></td>
+                <td id="txtBookingStatus"></td>
+                <td id="txtcurrentStatus"></td>
+                <td id="txtCoachPosition"></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th>Total Fare</th>
+                <th>Charting Status</th>
+                <th>Remarks if any</th>
+                <th>Train Status</th>
+            </tr>
+            <tr>
+                <td id="txtTotalFair"></td>
+                <td id="txtChartingStatus"></td>
+                <td id="txtRemark"></td>
+                <td id="txtTrainStatus"></td>
+            </tr>
+        </table>
+
+    </div>
+
+    <script src="./pnr.js"></script>
+</body>
+</html>
